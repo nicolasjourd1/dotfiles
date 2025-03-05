@@ -1,0 +1,12 @@
+#!/bin/sh
+
+# Since ~/.xprofile is sourced by SDDM, the path variable is set there so DWM has the correct path and it can launch
+# custom scripts (e.g scripts can be used in dwm's config.h)
+export PATH="$HOME/.local/bin:$PATH"
+
+xwallpaper --stretch ~/pictures/wallpapers/a_video_game_screen_with_trees_and_bushes.jpg
+
+while true; do
+    statusbar.sh
+    sleep 1
+done &
