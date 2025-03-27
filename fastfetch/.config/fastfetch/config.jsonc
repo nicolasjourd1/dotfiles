@@ -55,20 +55,19 @@
         },
         {
             "type": "terminal",
-            "key": ""
+            "key": ""
         },
         {
-            "type": "gpu"
+            "type": "gpu",
+            "key": ""
         },
         {
-            "type": "cpu"
-        },
-        {
-            "type": "terminalfont"
+            "type": "cpu",
+            "key": ""
         },
         {
             "type": "memory",
-            "key": "󰍛"
+            "key": ""
         },
         "break",
         {
